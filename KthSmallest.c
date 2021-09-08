@@ -9,7 +9,7 @@ int kthSmallest(int *a, int l, int h, int k)
     }
     else
     {
-        for (int i = l; i <= h; i++)
+        for (int i = l; i <= h - 1; i++)
         {
             for (int j = i + 1; j <= h; j++)
             {
