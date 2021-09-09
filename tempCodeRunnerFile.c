@@ -1,1 +1,0 @@
-printf("%d ", unin.un[0]);
